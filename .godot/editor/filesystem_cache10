@@ -1,13 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757922724
+::res://::1757928207
+export_presets.cfg::TextFile::-1::1757928207::0::1::::<><><>0<>0<><>::
 icon.webp::CompressedTexture2D/CompressedTexture2D::27118964165343846::1757764985::1757764991::1::::<><><>0<>0<>2765b228073266418cb0e013965e5088<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
-main.gd::GDScript::7691703322427900231::1757872924::0::1::::<>Node<><>0<>0<><>::
-Main.tscn::PackedScene::1862355847493844152::1757872924::0::1::::<><><>0<>0<><>::uid://dk5uuadk0v445::::res://Player.tscn<>uid://dht6h225oe8b8::::res://main.gd<>uid://dt64yn5au7hco::::res://fonts/Mob.tscn<>uid://d03lg1e2eah1w::::res://score.gd
-Mob.gd::GDScript::3581422832413973552::1757872194::0::1::::<>CharacterBody3D<><>0<>0<><>::
-player.gd::GDScript::9125490071771838573::1757872397::0::1::::<>CharacterBody3D<><>0<>0<><>::
-Player.tscn::PackedScene::7924331880937883300::1757873273::0::1::::<><><>0<>0<><>::uid://d3apqunpb8yrt::::res://player.gd<>uid://hs1670eubkjt::::res://art/Rabbit Grey.glb<>uid://d0ypm0v45pwdv::::res://art/player.glb
-score.gd::GDScript::8972465693846079174::1757870791::0::1::::<>Label<><>0<>0<><>::
-Ui_theme.tres::Theme::6541199175719167167::1757870397::0::1::::<><><>0<>0<><>::uid://cyxhh7ddkn62q::::res://fonts/Montserrat-Medium.ttf
+main.gd::GDScript/GDScript::7691703322427900231::1757872924::0::1::::<>Node<><>0<>0<><>::
+Main.tscn::PackedScene::1862355847493844152::1757926940::0::1::::<><><>0<>0<><>::uid://dk5uuadk0v445::::res://Player.tscn<>uid://dht6h225oe8b8::::res://main.gd<>uid://dt64yn5au7hco::::res://fonts/Mob.tscn<>uid://d03lg1e2eah1w::::res://score.gd<>uid://c5qpnfga41t4p::::res://art/House In a Forest Loop.ogg
+Mob.gd::GDScript/GDScript::3581422832413973552::1757872194::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.gd::GDScript/GDScript::9125490071771838573::1757872397::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Player.tscn::PackedScene::7924331880937883300::1757926940::0::1::::<><><>0<>0<><>::uid://d3apqunpb8yrt::::res://player.gd<>uid://hs1670eubkjt::::res://art/Rabbit Grey.glb<>uid://d0ypm0v45pwdv::::res://art/player.glb
+score.gd::GDScript/GDScript::8972465693846079174::1757870791::0::1::::<>Label<><>0<>0<><>::
+Ui_theme.tres::Theme/Theme::6541199175719167167::1757870397::0::1::::<><><>0<>0<><>::uid://cyxhh7ddkn62q::::res://fonts/Montserrat-Medium.ttf
 ::res://art/::1757769505
 body.tres::StandardMaterial3D/StandardMaterial3D::-1::1757764985::0::1::::<><><>0<>0<><>::
 eye.tres::StandardMaterial3D/StandardMaterial3D::-1::1757764985::0::1::::<><><>0<>0<><>::
@@ -23,7 +24,12 @@ Rabbit Grey.glb::PackedScene/PackedScene::530116426038117109::1757769502::175776
 Rabbit Grey_Sushi_Atlas.png::CompressedTexture2D/CompressedTexture2D::3637398547076945273::1757769504::1757769505::1::::<><><>0<>0<>05fdd5f87316247abf809a51b5ab0f50<>res://.godot/imported/Rabbit Grey_Sushi_Atlas.png-d605201b1bdb31bfe4dc672b0708b658.s3tc.ctex::
 Zombie.glb::PackedScene/PackedScene::552194667636468038::1757769502::1757769504::1::::<><><>0<>0<>d9c818ad50fec7783511030c2ee93623<>res://.godot/imported/Zombie.glb-03412acbe1f74cd57a0c30e2acf40648.scn::uid://dohblr5oso26n::::res://art/Zombie_Zombie_Atlas.png
 Zombie_Zombie_Atlas.png::CompressedTexture2D/CompressedTexture2D::8156437806917712743::1757769504::1757769505::1::::<><><>0<>0<>a26cd946198b5af5b10925328d5381b2<>res://.godot/imported/Zombie_Zombie_Atlas.png-cb2c7d38e5e073f16a9de8cd6974ac0e.s3tc.ctex::
-::res://fonts/::1757872925
+::res://Builds/::1757928171
+::res://Builds/Web/::1757928206
+index.apple-touch-icon.png::CompressedTexture2D::7505913599033281586::1757928206::1757928214::1::::<><><>0<>0<>fe9d87ae1c8a9ed90f700cc8fe9a6877<>res://.godot/imported/index.apple-touch-icon.png-95ebb0ffa707b238532b0f8f163317a0.ctex::
+index.icon.png::CompressedTexture2D::5377342909177862240::1757928206::1757928214::1::::<><><>0<>0<>0b62fd80fc87fb55242e4e5705133ba0<>res://.godot/imported/index.icon.png-3aef620bf0a455327777587440a08d40.ctex::
+index.png::CompressedTexture2D::6339506872918355401::1757928206::1757928214::1::::<><><>0<>0<>f3e6fa001f400f74a872f7dfc97a69e9<>res://.godot/imported/index.png-39d2b863f59743f2943c69e53788fe57.ctex::
+::res://fonts/::1757926940
 LICENSE.txt::TextFile/TextFile::-1::1757764985::0::1::::<><><>0<>0<><>::
-Mob.tscn::PackedScene::8558650171597393454::1757872925::0::1::::<><><>0<>0<><>::uid://bra4rmqm88pki::::res://Mob.gd<>uid://dj5njcxkvy2::::res://art/Ghost Skull.glb
+Mob.tscn::PackedScene::8558650171597393454::1757926940::0::1::::<><><>0<>0<><>::uid://bra4rmqm88pki::::res://Mob.gd<>uid://dj5njcxkvy2::::res://art/Ghost Skull.glb
 Montserrat-Medium.ttf::FontFile/FontFile::6505293508080888906::1757764985::1757764991::1::::<><><>0<>0<>07233739ee8ed56ec1cb0f04a4ff2983<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::
