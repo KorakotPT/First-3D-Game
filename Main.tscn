@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://1sey1nnue7hk"]
+[gd_scene load_steps=14 format=3 uid="uid://1sey1nnue7hk"]
 
 [ext_resource type="PackedScene" uid="uid://dk5uuadk0v445" path="res://Player.tscn" id="1_glv2v"]
 [ext_resource type="Script" uid="uid://dht6h225oe8b8" path="res://main.gd" id="1_r0du0"]
 [ext_resource type="PackedScene" uid="uid://dt64yn5au7hco" path="res://fonts/Mob.tscn" id="2_r0du0"]
 [ext_resource type="Script" uid="uid://d03lg1e2eah1w" path="res://score.gd" id="4_cm0pq"]
+[ext_resource type="FontFile" uid="uid://cyxhh7ddkn62q" path="res://fonts/Montserrat-Medium.ttf" id="5_3dxm6"]
 [ext_resource type="AudioStream" uid="uid://c5qpnfga41t4p" path="res://art/House In a Forest Loop.ogg" id="5_fos0i"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_r0du0"]
@@ -29,6 +30,10 @@ _data = {
 "tilts": PackedFloat32Array(0, 0, 0, 0)
 }
 point_count = 4
+
+[sub_resource type="LabelSettings" id="LabelSettings_lgr22"]
+font = ExtResource("5_3dxm6")
+font_size = 21
 
 [node name="World" type="Node"]
 script = ExtResource("1_r0du0")
@@ -98,10 +103,10 @@ grow_vertical = 2
 
 [node name="Score" type="Label" parent="UserInterface"]
 layout_mode = 1
-offset_left = 6.0
-offset_top = 52.0
-offset_right = 179.0
-offset_bottom = 85.0
+offset_left = 14.0
+offset_top = 38.0
+offset_right = 187.0
+offset_bottom = 71.0
 text = "Score: 000"
 script = ExtResource("4_cm0pq")
 
@@ -132,10 +137,10 @@ horizontal_alignment = 1
 layout_mode = 0
 offset_left = 9.0
 offset_top = 2.0
-offset_right = 241.0
-offset_bottom = 51.0
-text = "นายกรกฏ พรมทอง 673380025-8
-Sec 1"
+offset_right = 596.0
+offset_bottom = 61.0
+text = "นายกรกฏ พรมทอง 673380025-8    Sec 1"
+label_settings = SubResource("LabelSettings_lgr22")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_fos0i")
